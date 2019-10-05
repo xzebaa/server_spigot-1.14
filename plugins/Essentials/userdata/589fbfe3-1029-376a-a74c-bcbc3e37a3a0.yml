@@ -1,12 +1,13 @@
 lastAccountName: xZebaa
 timestamps:
-  login: 1569959516869
-  logout: 1569960197867
+  login: 1570244491155
+  logout: 1570245235115
 ipAddress: 127.0.0.1
 logoutlocation:
   world: world
-  x: -99.26083704492079
-  y: 69.0
-  z: -207.43068205106601
-  yaw: 349.8039
-  pitch: 33.300026
+  x: -182.08789354183037
+  y: 154.7960941322165
+  z: 176.21804243499162
+  yaw: 117.60485
+  pitch: 24.600185
+afk: false

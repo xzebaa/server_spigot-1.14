@@ -1,0 +1,314 @@
+groups:
+  Usuario:
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - essentials.msg
+    - essentials.rules
+    - essentials.helpop
+    - modifyworld.block.place.*
+    - modifyworld.destroy.*
+    options:
+      build: true
+      prefix: '&7'
+      default: true
+  Vip:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    options:
+      prefix: '&8[&eVip&8] &3'
+  Vip+:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    options:
+      prefix: '&8[&eVip&a+&8] &3'
+  Vip++:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    options:
+      prefix: '&8[&eVip&b++&8] &3'
+  Elite:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    - skywars.vip.coin.3
+    - skywars.settings.colour.light_blue
+    - essentials.chat.format
+    - essentials.chat.magic
+    options:
+      prefix: '&8[&6Elite&8] &3'
+  Delta:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    - skywars.vip.coin.3
+    - skywars.settings.colour.light_blue
+    - essentials.chat.format
+    - essentials.chat.magic
+    - skywars.vip.talk
+    - skywars.settings.trail.potion
+    - skywars.settings.trail.slime
+    - skywars.settings.trail.flame
+    - skywars.settings.colour.light_green
+    - skywars.vote.chest.*
+    options:
+      prefix: '&8[&aDelta&8] &3'
+  Heroe:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    - skywars.vip.coin.3
+    - skywars.settings.colour.light_blue
+    - essentials.chat.format
+    - essentials.chat.magic
+    - skywars.vip.talk
+    - skywars.settings.trail.potion
+    - skywars.settings.trail.slime
+    - skywars.settings.trail.flame
+    - skywars.settings.colour.light_green
+    - skywars.vote.chest.*
+    - skywars.settings.trail.notes
+    - skywars.settings.trail.lava
+    - skywars.settings.trail.water
+    - skywars.settings.colour.magenta
+    options:
+      prefix: '&8[&6Heroe&8] &3'
+  Dios:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    - skywars.vip.coin.3
+    - skywars.settings.colour.light_blue
+    - essentials.chat.format
+    - essentials.chat.magic
+    - skywars.vip.talk
+    - skywars.settings.trail.potion
+    - skywars.settings.trail.slime
+    - skywars.settings.trail.flame
+    - skywars.settings.colour.light_green
+    - skywars.vote.chest.*
+    - skywars.settings.trail.notes
+    - skywars.settings.trail.lava
+    - skywars.settings.trail.water
+    - skywars.settings.colour.magenta
+    - skywars.settings.colour.*
+    - skywars.settings.trail.*
+    - skywars.vote.chest.*
+    - skywars.vote.time.*
+    options:
+      prefix: '&8[&eDios&8] &3'
+  YouTuber:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    - skywars.vip.coin.3
+    - skywars.settings.colour.light_blue
+    - essentials.chat.format
+    - essentials.chat.magic
+    options:
+      prefix: '&6[YT] &7'
+  Mod:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    - skywars.vip.coin.3
+    - skywars.settings.colour.light_blue
+    - essentials.chat.format
+    - essentials.chat.magic
+    - maxbans.checkban
+    - maxbans.checkban.self
+    - maxbans.kick
+    - maxbans.kick.*
+    - maxbans.tempmute
+    - maxbans.unmute
+    - maxbans.warn
+    - maxbans.unwarn
+    - maxbans.tempban
+    - maxbans.unban
+    - maxbans.ban
+    - maxbans.clearwarnings
+    - essentials.signs.use.repair
+    - essentials.invsee.preventmodify
+    - essentials.chat.url
+    - essentials.sethome.multiple.staff
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.msg.color
+    - essentials.signs.color
+    - essentials.joinfullserver
+    - essentials.chat.ignoreexempt
+    - essentials.realname
+    - essentials.helpop.receive
+    - essentials.socialspy
+    - essentials.fly
+    - essentials.chat.spy
+    - essentials.tp
+    - essentials.weather
+    - essentials.time
+    - essentials.time.set
+    - time.set
+    - essentials.vanish.see
+    - essentials.list
+    options:
+      prefix: '&8[&5Mod&8] &7'
+  Admin:
+    inheritance:
+    - Usuario
+    permissions:
+    - chestcommands.open.Hub.yml
+    - chestcommands.open.Lobby.yml
+    - customjoinitems.test
+    - skywars.settings.colour.light_gray
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.afk.kickexempt
+    - essentials.chat.color
+    - essentials.joinfullserver
+    - skywars.settings.colour.blue
+    - essentials.nick.color
+    - essentials.msg.color
+    - skywars.vip.coin.2
+    - skywars.settings.colour.yellow
+    - skywars.vip.coin.3
+    - skywars.settings.colour.light_blue
+    - essentials.chat.format
+    - essentials.chat.magic
+    - maxbans.history
+    - maxbans.forcespawn
+    - maxbans.ipban
+    - essentials.vanish
+    - essentials.vanish.interact
+    - essentials.tptoggle
+    - essentials.broadcast
+    options:
+      prefix: '&8[&9Admin&8] &7'
+  Owner:
+    permissions:
+    - '*'
+    options:
+      prefix: '&8[&cOwner&8] &7'

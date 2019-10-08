@@ -1,0 +1,33 @@
+name: default
+permissions:
+- essentials.afk
+- essentials.back
+- essentials.back.ondeath
+- essentials.delhome
+- essentials.depth
+- essentials.help
+- essentials.home
+- essentials.kit
+- essentials.kits.inicial
+- essentials.kit.tools
+- essentials.list
+- essentials.mail
+- essentials.mail.send
+- essentials.me
+- essentials.motd
+- essentials.msg
+- essentials.ping
+- essentials.r
+- essentials.rules
+- essentials.seen
+- essentials.sethome
+- essentials.signs.use.disposal
+- essentials.spawn
+- essentials.suicide
+- essentials.tpa
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.tpdeny
+prefixes:
+- '&2[&4Rox&2]&7 ':
+    priority: 1

@@ -1,0 +1,23 @@
+lastAccountName: wolf
+timestamps:
+  login: 1570496328599
+  logout: 1570496608797
+  kits:
+    inicio: 1570494387478
+    inicial: 1570495939741
+ipAddress: 127.0.0.1
+afk: false
+logoutlocation:
+  world: world
+  x: -119.07649142950581
+  y: 78.86813563808994
+  z: -350.4246341561122
+  yaw: -105.2918
+  pitch: 13.649967
+lastlocation:
+  world: world
+  x: -153.7243013073804
+  y: 68.0
+  z: -260.07248125207377
+  yaw: 12.787449
+  pitch: 23.10009

@@ -4,5 +4,11 @@
     "name": "xZebaa",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "44213dae-e321-3c05-ac9f-2733175af2d5",
+    "name": "xSebaa",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
